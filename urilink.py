@@ -1,2 +1,2 @@
-invite_link = discord.utils.oauth_url(client_id=1222239041794084934, permissions=discord.Permissions(permissions=8))
+invite_link = f"https://discord.com/oauth2/authorize?client_id={YOUR_CLIENT_ID}&permissions=8&scope=bot"
 print("Invite link for your bot:", invite_link)
